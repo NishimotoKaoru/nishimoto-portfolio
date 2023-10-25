@@ -1,12 +1,8 @@
 jQuery(function ($) {
     //タイトル背景のスライドショー
     $('.mv-container').bgSwitcher({
-        images: ['img/susuki.jpg', 'img/bike_r3.jpg', 'img/kanure.jpg',
-            'img/fuji.jpg', 'img/engetujima.jpg', 'img/kisshu.jpg',], // 切り替える背景画像を指定
-    });
-    $('.profile-img').bgSwitcher({
-        images: ['img/susuki.jpg', 'img/bike_r3.jpg', 'img/kanure.jpg',
-            'img/fuji.jpg', 'img/engetujima.jpg', 'img/kisshu.jpg',], // 切り替える背景画像を指定
+        images: ['susuki.jpg', 'bike_r3.jpg', 'kanure.jpg',
+            'fuji.jpg', 'engetujima.jpg', 'kisshu.jpg',], // 切り替える背景画像を指定
     });
 });
 
